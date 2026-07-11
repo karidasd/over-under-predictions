@@ -1,7 +1,6 @@
 import os
 import json
 import time
-import shutil
 import requests
 from datetime import datetime
 

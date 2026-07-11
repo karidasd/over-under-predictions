@@ -71,7 +71,7 @@ async function fetchData(dayStr = 'today') {
             if (fbRes.ok) predData = await fbRes.json();
         }
 
-        if (predData && predData.matches) {
+        if (predData && Array.isArray(predData.matches)) {
             document.getElementById('current-date').textContent = predData.date || dayStr;
             renderPredictions(predData);
         } else {
@@ -179,31 +179,39 @@ function createMatchCard(match, isVIP) {
     }
 
     let oddsHtml = '';
-    if (match.odds && match.odds.home !== 'N/A') {
-        const pHome = parseFloat(match.percent_home)/100;
-        const pDraw = parseFloat(match.percent_draw)/100;
-        const pAway = parseFloat(match.percent_away)/100;
-        
-        const isValHome = (pHome * match.odds.home) > 1.1;
-        const isValDraw = (pDraw * match.odds.draw) > 1.1;
-        const isValAway = (pAway * match.odds.away) > 1.1;
-
-        oddsHtml = `
-            <div class="odds-container">
-                <div class="odds-box">
-                    <span class="odds-label">1 (Home)</span>
-                    <span class="odds-value ${isValHome ? 'value-bet' : ''}">${match.odds.home} ${isValHome ? '🌟' : ''}</span>
+    if (match.odds && (match.odds.over !== 'N/A' || match.odds.home !== 'N/A')) {
+        // Over/Under odds (our format)
+        if (match.odds.over !== undefined) {
+            const overVal = match.odds.over !== 'N/A' ? match.odds.over : '-';
+            const underVal = match.odds.under !== 'N/A' ? match.odds.under : '-';
+            oddsHtml = `
+                <div class="odds-container">
+                    <div class="odds-box">
+                        <span class="odds-label">Over 2.5</span>
+                        <span class="odds-value">${overVal}</span>
+                    </div>
+                    <div class="odds-box">
+                        <span class="odds-label">Under 2.5</span>
+                        <span class="odds-value">${underVal}</span>
+                    </div>
                 </div>
-                <div class="odds-box">
-                    <span class="odds-label">X (Draw)</span>
-                    <span class="odds-value ${isValDraw ? 'value-bet' : ''}">${match.odds.draw} ${isValDraw ? '🌟' : ''}</span>
+            `;
+        } else {
+            // Fallback: 1X2 odds format
+            const pHome = parseFloat(match.percent_home)/100 || 0;
+            const pDraw = parseFloat(match.percent_draw)/100 || 0;
+            const pAway = parseFloat(match.percent_away)/100 || 0;
+            const isValHome = (pHome * parseFloat(match.odds.home)) > 1.1;
+            const isValDraw = (pDraw * parseFloat(match.odds.draw)) > 1.1;
+            const isValAway = (pAway * parseFloat(match.odds.away)) > 1.1;
+            oddsHtml = `
+                <div class="odds-container">
+                    <div class="odds-box"><span class="odds-label">1 (Home)</span><span class="odds-value ${isValHome ? 'value-bet' : ''}">${match.odds.home}</span></div>
+                    <div class="odds-box"><span class="odds-label">X (Draw)</span><span class="odds-value ${isValDraw ? 'value-bet' : ''}">${match.odds.draw}</span></div>
+                    <div class="odds-box"><span class="odds-label">2 (Away)</span><span class="odds-value ${isValAway ? 'value-bet' : ''}">${match.odds.away}</span></div>
                 </div>
-                <div class="odds-box">
-                    <span class="odds-label">2 (Away)</span>
-                    <span class="odds-value ${isValAway ? 'value-bet' : ''}">${match.odds.away} ${isValAway ? '🌟' : ''}</span>
-                </div>
-            </div>
-        `;
+            `;
+        }
     }
 
     const probHtml = `
@@ -269,7 +277,7 @@ function renderHistory(data) {
     };
 
     const stats = [
-        { label: "Winner Prediction Accuracy", value: acc1x2, total: data.total_1x2 }
+        { label: "Over/Under 2.5 Prediction Accuracy", value: acc1x2, total: data.total_1x2 }
     ];
 
     stats.forEach(stat => {
