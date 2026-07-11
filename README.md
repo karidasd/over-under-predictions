@@ -4,6 +4,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Profitable-success?style=for-the-badge)
 
+**🌐 Live UI Dashboard:** [View Today's Predictions](https://karidasd.github.io/over-under-predictions/)
+
 Welcome to the **Over/Under Predictions** repository. This is an open-source, mathematical betting engine that uses the **Poisson Distribution** to predict `OVER 2.5` and `UNDER 2.5` goals for the top European Football Leagues.
 
 Forget about "gut feelings". This bot relies purely on empirical data, attack strengths, and defensive weaknesses to find high-probability **Value Bets**.
