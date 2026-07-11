@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over/Under Football Predictor | Daily ML Match Forecasts</title>
+    <meta name="description" content="Daily football match predictions powered by Random Forest and XGBoost machine learning models.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div class="background-glow glow-2"></div>
+    
+    <header class="glass-header">
+        <div class="container header-content">
+            <div class="logo">
+                <span class="gradient-text">Predict</span>ML
+            </div>
+            <nav>
+                <a href="#today" class="nav-link active">Today's Matches</a>
+                <a href="#history" class="nav-link">Track Record</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="hero" class="hero-section text-center">
+            <img src="assets/logo.png" alt="AI Football Logo" class="main-logo">
+            <h1 class="hero-title">Over/Under Football <br><span class="gradient-text">Predictions</span></h1>
+            <p class="hero-subtitle">Utilizing the advanced API-Football Machine Learning Engine to predict daily match outcomes with high accuracy.</p>
+        </section>
+
+        <!-- BET OF THE DAY VIP SECTION -->
+        <section id="bet-of-the-day" class="botd-section" style="display: none;">
+            <div class="section-header" style="justify-content: center; margin-bottom: 1rem;">
+                <h2 class="section-title gradient-text" style="margin:0; font-size: 2.5rem; display: flex; align-items: center; gap: 10px;">
+                    🌟 Bet of the Day 🌟
+                </h2>
+            </div>
+            <p class="text-center" style="color: var(--text-secondary); margin-bottom: 2rem;">Top Value Bet hand-picked by the AI</p>
+            <div id="botd-container" style="max-width: 600px; margin: 0 auto 5rem auto;">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+        <section id="history" class="stats-section">
+            <h2 class="section-title">Model Accuracy Track Record</h2>
+            <div class="stats-grid" id="stats-container">
+                <!-- Injected via JS -->
+                <div class="stat-card glass-card skeleton"></div>
+                <div class="stat-card glass-card skeleton"></div>
+                <div class="stat-card glass-card skeleton"></div>
+            </div>
+        </section>
+
+        <section id="livescores" class="container" style="margin-top: 4rem; margin-bottom: 4rem;">
+            <div class="section-header">
+                <h2 class="section-title">🔴 Live Scores</h2>
+            </div>
+            <div style="background: rgba(255,255,255,0.02); padding: 1rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05);">
+                <api-sports-widget data-type="livescore"></api-sports-widget>
+            </div>
+        </section>
+
+        <section id="today" class="predictions-section">
+            <div class="section-header" style="flex-wrap: wrap; gap: 1rem;">
+                <h2 class="section-title" style="margin: 0;">Today's Matches</h2>
+                <div class="view-toggle">
+                    <button id="toggle-grid" class="view-btn active" title="Grid View">🔲 Grid</button>
+                    <button id="toggle-table" class="view-btn" title="Table View">📋 Table</button>
+                </div>
+                <div class="date-badge" id="current-date">Loading...</div>
+            </div>
+            <div class="predictions-grid grid-view" id="predictions-container">
+                <!-- Injected via JS -->
+                <div class="prediction-card glass-card skeleton" style="height: 250px;"></div>
+                <div class="prediction-card glass-card skeleton" style="height: 250px;"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section" style="margin-top: 4rem; padding: 2rem; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; text-align: center;">
+            <h2 class="section-title">🤖 About the AI</h2>
+            <p style="color: var(--text-secondary); max-width: 800px; margin: 0 auto; line-height: 1.6;">
+                Welcome to the future of sports analytics. This platform runs completely autonomously, leveraging the advanced Machine Learning engine of <strong>API-Football</strong>. 
+                Every morning, the AI scans global fixtures, calculates precise probabilities for Match Winners (1X2) and Goals (Over/Under), and compares them against live bookmaker odds to detect hidden <strong>Value Bets 🌟</strong>. 
+                Every night, it grades its own performance to ensure maximum transparency. No human intervention, just pure data-driven edges.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Predictions are based on statistical models and historical data. Not financial advice.</p>
+    </footer>
+
+    <!-- API Sports Widget Configuration -->
+    <api-sports-widget data-type="config"
+      data-key="38f1c8e59dd3c061104a4ffd98f0fe1e"
+      data-sport="football"
+      data-lang="en"
+      data-theme="dark"
+      data-show-errors="true"
+    ></api-sports-widget>
+    
+    <!-- API Sports Leagues Widget -->
+    <div class="container" style="margin-bottom: 4rem;">
+        <h2 class="section-title text-center">Supported Leagues</h2>
+        <api-sports-widget data-type="leagues"></api-sports-widget>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="bg-music" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+    <button id="music-toggle" class="music-btn glass-card">🔇</button>
+
+    <script type="module" src="https://widgets.api-sports.io/2.0.0/widgets.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
