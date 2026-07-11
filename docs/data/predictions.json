@@ -1,4 +1,80 @@
 {
-    "date": "",
-    "matches": []
+    "date": "2026-07-11",
+    "matches": [
+        {
+            "fixture_id": 1533048,
+            "date": "2026-07-11T06:45:00+00:00",
+            "league": "Tasmania Southern Championship",
+            "home_team": "Clarence Zebras II",
+            "home_logo": "https://media.api-sports.io/football/teams/23521.png",
+            "away_team": "Taroona",
+            "away_logo": "https://media.api-sports.io/football/teams/23528.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 6.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 6.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.10",
+                "under": "6.50"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1533123,
+            "date": "2026-07-11T06:45:00+00:00",
+            "league": "Tasmania Northern Championship",
+            "home_team": "Devonport U21",
+            "home_logo": "https://media.api-sports.io/football/teams/23508.png",
+            "away_team": "Ulverstone U21",
+            "away_logo": "https://media.api-sports.io/football/teams/27750.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 11.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 11.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1527244,
+            "date": "2026-07-11T07:00:00+00:00",
+            "league": "Western Australia NPL",
+            "home_team": "Sorrento",
+            "home_logo": "https://media.api-sports.io/football/teams/3823.png",
+            "away_team": "Fremantle City",
+            "away_logo": "https://media.api-sports.io/football/teams/21025.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 6.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 6.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        }
+    ]
 }

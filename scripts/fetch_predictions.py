@@ -3,13 +3,10 @@ import json
 import time
 import shutil
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime
 
 API_KEY = os.environ.get('API_FOOTBALL_KEY')
 BASE_URL = "https://v3.football.api-sports.io"
-
-# Top leagues to scan for over/under fixtures
-LEAGUES = [39, 140, 135, 78, 61]  # PL, La Liga, Serie A, Bundesliga, Ligue 1
 
 def fetch_api(endpoint, params):
     if not API_KEY:
@@ -21,13 +18,13 @@ def fetch_api(endpoint, params):
     return []
 
 def get_fixtures_for_date(date_str):
-    """Fetch all fixtures for a given date across our target leagues."""
-    all_fixtures = []
-    for league_id in LEAGUES:
-        fixtures = fetch_api("fixtures", {"league": league_id, "date": date_str, "season": 2024})
-        all_fixtures.extend(fixtures)
-        time.sleep(0.2)
-    return all_fixtures
+    """Fetch all scheduled fixtures for a date (all leagues, all countries)."""
+    fixtures = fetch_api("fixtures", {"date": date_str})
+    if not fixtures:
+        return []
+    # Only take scheduled (NS) fixtures, limit to 15 for API quota
+    scheduled = [f for f in fixtures if f['fixture']['status']['short'] == 'NS']
+    return scheduled[:15]
 
 def get_prediction(fixture_id):
     """Fetch API-Football's ML prediction for a fixture."""
@@ -36,14 +33,11 @@ def get_prediction(fixture_id):
         return preds[0]
     return None
 
-def get_odds(fixture_id):
+def get_odds_ou(fixture_id):
     """Fetch Over/Under 2.5 odds for a fixture."""
-    odds_resp = fetch_api("odds", {"fixture": fixture_id, "bet": 5})  # bet id 5 = Goals Over/Under
+    odds_resp = fetch_api("odds", {"fixture": fixture_id, "bet": 5})
     if odds_resp and len(odds_resp) > 0:
-        bookmakers = odds_resp[0].get('bookmakers', [])
-        if not bookmakers:
-            return None
-        for bookmaker in bookmakers:
+        for bookmaker in odds_resp[0].get('bookmakers', []):
             for bet in bookmaker.get('bets', []):
                 if 'Over/Under' in bet.get('name', ''):
                     vals = bet.get('values', [])
@@ -60,46 +54,45 @@ def main():
     today = datetime.now()
     date_str = today.strftime('%Y-%m-%d')
 
-    print(f"Fetching fixtures for {date_str}...")
+    print(f"Fetching fixtures for {date_str} (all leagues)...")
     fixtures = get_fixtures_for_date(date_str)
-    print(f"Found {len(fixtures)} fixtures total.")
+    print(f"Found {len(fixtures)} scheduled fixtures.")
 
     predictions = []
     api_calls = 0
 
     for f in fixtures:
-        # Hard limit to protect API quota (100 calls/day on free tier)
-        if api_calls >= 14:
+        # Hard stop: max 5 predictions + protect API quota
+        if len(predictions) >= 5:
+            break
+        if api_calls >= 15:
             print("API call limit reached, stopping.")
             break
 
         fix_id = f['fixture']['id']
-        status_short = f['fixture']['status']['short']
+        home_team = f['teams']['home']['name']
+        away_team = f['teams']['away']['name']
+        print(f"  -> Getting prediction for {home_team} vs {away_team} (ID: {fix_id})...")
 
-        # Only process scheduled fixtures
-        if status_short != 'NS':
-            continue
-
-        print(f"  -> Getting prediction for fixture {fix_id}...")
+        time.sleep(0.15)
         pred_data = get_prediction(fix_id)
         api_calls += 1
-        time.sleep(0.2)
 
         if not pred_data:
             continue
 
         pred_goals = pred_data.get('predictions', {}).get('goals', {})
-        home_g_pred = pred_goals.get('home')
-        away_g_pred = pred_goals.get('away')
+        home_g_raw = pred_goals.get('home')
+        away_g_raw = pred_goals.get('away')
 
         try:
-            home_g = float(str(home_g_pred).replace('-', '0')) if home_g_pred else 0.0
-            away_g = float(str(away_g_pred).replace('-', '0')) if away_g_pred else 0.0
+            home_g = float(str(home_g_raw).replace('-', '0')) if home_g_raw else 0.0
+            away_g = float(str(away_g_raw).replace('-', '0')) if away_g_raw else 0.0
             total_xg = home_g + away_g
         except (ValueError, TypeError):
             total_xg = 0.0
 
-        # Determine Over/Under signal
+        # Over/Under signal — same thresholds as the engine
         if total_xg >= 2.7:
             short_tip = "OVER 2.5"
             confidence = min(int((total_xg - 2.5) * 25 + 55), 85)
@@ -109,13 +102,13 @@ def main():
             confidence = min(int((2.5 - total_xg) * 25 + 55), 85)
             advice = f"AI expects only {total_xg:.1f} total goals — leaning UNDER 2.5"
         else:
-            # No high-confidence signal — skip
+            print(f"     No high-confidence signal (xG={total_xg:.1f}), skipping.")
             continue
 
-        # Fetch Over/Under odds
-        odds_data = get_odds(fix_id)
+        time.sleep(0.15)
+        odds_data = get_odds_ou(fix_id)
         api_calls += 1
-        time.sleep(0.2)
+        time.sleep(0.15)
 
         win_percent = pred_data.get('predictions', {}).get('percent', {})
 
@@ -123,9 +116,9 @@ def main():
             "fixture_id": fix_id,
             "date": f['fixture']['date'],
             "league": f['league']['name'],
-            "home_team": f['teams']['home']['name'],
+            "home_team": home_team,
             "home_logo": f['teams']['home']['logo'],
-            "away_team": f['teams']['away']['name'],
+            "away_team": away_team,
             "away_logo": f['teams']['away']['logo'],
             "short_tip": short_tip,
             "confidence": f"{confidence}%",
@@ -138,16 +131,17 @@ def main():
             "status": "Pending",
             "home_goals": None,
             "away_goals": None,
-            "correct_ou": None
+            "correct_ou": None,
+            "correct_1x2": None
         })
+        print(f"     [OK] Added: {short_tip} ({confidence}%)")
 
     output = {"date": date_str, "matches": predictions}
-
     output_path = os.path.join(data_dir, 'predictions.json')
     with open(output_path, 'w') as f_out:
         json.dump(output, f_out, indent=4)
 
-    print(f"Saved {len(predictions)} Over/Under predictions to {output_path}")
+    print(f"\nSaved {len(predictions)} Over/Under predictions to {output_path}")
 
 if __name__ == "__main__":
     main()
