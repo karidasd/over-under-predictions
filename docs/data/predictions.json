@@ -1,43 +1,4 @@
 {
-    "date": "2026-07-11T12:00:00.000Z",
-    "matches": [
-        {
-            "id": "101",
-            "status": "Pending",
-            "league": "Premier League",
-            "home_team": "Arsenal",
-            "home_logo": "https://crests.football-data.org/57.png",
-            "away_team": "Everton",
-            "away_logo": "https://crests.football-data.org/62.png",
-            "percent_home": "68%",
-            "percent_draw": "N/A",
-            "percent_away": "32%",
-            "short_tip": "OVER 2.5",
-            "advice": "Strong indicator for goals. Total xG: 3.26",
-            "odds": {
-                "home": "N/A",
-                "draw": "N/A",
-                "away": "N/A"
-            }
-        },
-        {
-            "id": "102",
-            "status": "Pending",
-            "league": "Premier League",
-            "home_team": "Crystal Palace",
-            "home_logo": "https://crests.football-data.org/354.png",
-            "away_team": "Burnley",
-            "away_logo": "https://crests.football-data.org/328.png",
-            "percent_home": "26%",
-            "percent_draw": "N/A",
-            "percent_away": "74%",
-            "short_tip": "UNDER 2.5",
-            "advice": "Defensive matchup expected. Total xG: 1.55",
-            "odds": {
-                "home": "N/A",
-                "draw": "N/A",
-                "away": "N/A"
-            }
-        }
-    ]
+    "date": "",
+    "matches": []
 }
