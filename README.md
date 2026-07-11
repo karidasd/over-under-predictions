@@ -1,3 +1,5 @@
+![Over/Under Predictions Banner](docs/assets/banner.png)
+
 # 🤖 Over/Under Predictions (Poisson Engine)
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge)
