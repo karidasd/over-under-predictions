@@ -67,7 +67,8 @@ def main():
                         match['correct_ou'] = correct
                         match['correct_1x2'] = correct  # UI uses correct_1x2 for ✅/❌
 
-                        print(f"  Result: {home_goals}-{away_goals} | {'✅ Correct' if correct else '❌ Wrong'}")
+                        result_str = "Correct" if correct else "Wrong"
+                        print(f"  Result: {home_goals}-{away_goals} | {result_str}")
 
         updated_matches.append(match)
 

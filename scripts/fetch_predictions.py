@@ -92,6 +92,11 @@ def main():
         except (ValueError, TypeError):
             total_xg = 0.0
 
+        # Sanity cap: xG above 4.5 is unrealistic (amateur leagues skew data)
+        if total_xg > 4.5:
+            print(f"     [SKIP] xG too high ({total_xg:.1f}) — likely amateur league, skipping.")
+            continue
+
         # Over/Under signal — same thresholds as the engine
         if total_xg >= 2.7:
             short_tip = "OVER 2.5"
