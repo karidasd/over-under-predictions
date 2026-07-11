@@ -1,10 +1,10 @@
-# 🤖 AI Football Predictions (Poisson Engine)
+# 🤖 Over/Under Predictions (Poisson Engine)
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Profitable-success?style=for-the-badge)
 
-Welcome to the **AI Football Predictions** repository. This is an open-source, mathematical betting engine that uses the **Poisson Distribution** to predict `OVER 2.5` and `UNDER 2.5` goals for the top European Football Leagues.
+Welcome to the **Over/Under Predictions** repository. This is an open-source, mathematical betting engine that uses the **Poisson Distribution** to predict `OVER 2.5` and `UNDER 2.5` goals for the top European Football Leagues.
 
 Forget about "gut feelings". This bot relies purely on empirical data, attack strengths, and defensive weaknesses to find high-probability **Value Bets**.
 
@@ -21,8 +21,8 @@ Go to their website, register for a free account, and get your API Key.
 
 ### 2. Installation
 ```bash
-git clone https://github.com/karidasd/ai-football-predictions.git
-cd ai-football-predictions
+git clone https://github.com/karidasd/over-under-predictions.git
+cd over-under-predictions
 pip install -r requirements.txt
 ```
 
