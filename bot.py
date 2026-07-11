@@ -59,9 +59,9 @@ def predict(league_code, threshold=0.60):
     table.add_column("Prediction", justify="center", style="bold red")
     table.add_column("Confidence", justify="right", style="green")
     
-    md_report = f"# 🔥 Over/Under Predictions\\n*Generated on: {datetime.now().strftime('%Y-%m-%d')}*\\n\\n"
-    md_report += "| Match | Expected Goals (xG) | Prediction | Confidence |\\n"
-    md_report += "|---|---|---|---|\\n"
+    md_report = f"# 🔥 Over/Under Predictions\n*Generated on: {datetime.now().strftime('%Y-%m-%d')}*\n\n"
+    md_report += "| Match | Expected Goals (xG) | Prediction | Confidence |\n"
+    md_report += "|---|---|---|---|\n"
     
     for match in matches:
         match_id = str(match['id'])
@@ -114,7 +114,7 @@ def predict(league_code, threshold=0.60):
         conf_str = f"{conf*100:.1f}%"
         
         table.add_row(match_str, xg_str, pred, conf_str)
-        md_report += f"| {match_str} | {xg_str} | **{pred}** | {conf_str} |\\n"
+        md_report += f"| {match_str} | {xg_str} | **{pred}** | {conf_str} |\n"
         
     with open(PREDICTIONS_FILE, 'w') as f:
         json.dump(predictions_data, f, indent=4)
