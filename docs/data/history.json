@@ -1,4 +1,31 @@
 {
-    "correct_1x2": 18,
-    "total_1x2": 24
+    "correct_1x2": 19,
+    "total_1x2": 25,
+    "history_log": [
+        {
+            "fixture_id": 1584779,
+            "date": "2026-07-11T07:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Ararat",
+            "home_logo": "https://media.api-sports.io/football/teams/3682.png",
+            "away_team": "Van",
+            "away_logo": "https://media.api-sports.io/football/teams/6286.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "35%",
+            "percent_draw": "35%",
+            "percent_away": "30%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 2,
+            "correct_ou": true,
+            "correct_1x2": true
+        }
+    ]
 }
