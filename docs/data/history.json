@@ -1,6 +1,6 @@
 {
     "correct_1x2": 20,
-    "total_1x2": 27,
+    "total_1x2": 29,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -76,6 +76,56 @@
             "away_goals": 1,
             "correct_ou": true,
             "correct_1x2": true
+        },
+        {
+            "fixture_id": 1583651,
+            "date": "2026-07-13T08:00:00+00:00",
+            "league": "Friendlies",
+            "home_team": "Vietnam",
+            "home_logo": "https://media.api-sports.io/football/teams/1542.png",
+            "away_team": "Gangwon FC",
+            "away_logo": "https://media.api-sports.io/football/teams/2746.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 1,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1576817,
+            "date": "2026-07-13T13:00:00+00:00",
+            "league": "Reserve League",
+            "home_team": "Estudiantes Rio Cuarto 2",
+            "home_logo": "https://media.api-sports.io/football/teams/27271.png",
+            "away_team": "Defensa y Justicia Res.",
+            "away_logo": "https://media.api-sports.io/football/teams/18684.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 0,
+            "correct_ou": false,
+            "correct_1x2": false
         }
     ]
 }
