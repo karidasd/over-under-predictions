@@ -45,11 +45,11 @@
                 "over": "1.57",
                 "under": "2.35"
             },
-            "status": "Pending",
-            "home_goals": null,
-            "away_goals": null,
-            "correct_ou": null,
-            "correct_1x2": null
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 1,
+            "correct_ou": false,
+            "correct_1x2": false
         },
         {
             "fixture_id": 1560866,
@@ -70,11 +70,11 @@
                 "over": "1.53",
                 "under": "2.38"
             },
-            "status": "Pending",
-            "home_goals": null,
-            "away_goals": null,
-            "correct_ou": null,
-            "correct_1x2": null
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 2,
+            "correct_ou": false,
+            "correct_1x2": false
         },
         {
             "fixture_id": 1583300,
@@ -95,11 +95,11 @@
                 "over": "N/A",
                 "under": "N/A"
             },
-            "status": "Pending",
-            "home_goals": null,
-            "away_goals": null,
-            "correct_ou": null,
-            "correct_1x2": null
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 0,
+            "correct_ou": true,
+            "correct_1x2": true
         }
     ]
 }
