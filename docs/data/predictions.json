@@ -20,11 +20,11 @@
                 "over": "N/A",
                 "under": "N/A"
             },
-            "status": "Pending",
-            "home_goals": null,
-            "away_goals": null,
-            "correct_ou": null,
-            "correct_1x2": null
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 0,
+            "correct_ou": true,
+            "correct_1x2": true
         },
         {
             "fixture_id": 1589262,
@@ -45,11 +45,11 @@
                 "over": "N/A",
                 "under": "N/A"
             },
-            "status": "Pending",
-            "home_goals": null,
-            "away_goals": null,
-            "correct_ou": null,
-            "correct_1x2": null
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 1,
+            "correct_ou": true,
+            "correct_1x2": true
         },
         {
             "fixture_id": 1560863,
@@ -70,11 +70,11 @@
                 "over": "N/A",
                 "under": "N/A"
             },
-            "status": "Pending",
-            "home_goals": null,
-            "away_goals": null,
-            "correct_ou": null,
-            "correct_1x2": null
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 4,
+            "correct_ou": false,
+            "correct_1x2": false
         }
     ]
 }
