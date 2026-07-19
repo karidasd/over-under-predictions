@@ -1,30 +1,55 @@
 {
-    "date": "2026-07-18",
+    "date": "2026-07-19",
     "matches": [
         {
-            "fixture_id": 1535526,
-            "date": "2026-07-18T07:00:00+00:00",
-            "league": "Western Australia State League 1",
-            "home_team": "Inglewood United",
-            "home_logo": "https://media.api-sports.io/football/teams/3818.png",
-            "away_team": "UWA Nedlands",
-            "away_logo": "https://media.api-sports.io/football/teams/23533.png",
+            "fixture_id": 1591888,
+            "date": "2026-07-19T07:30:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Avispa Fukuoka",
+            "home_logo": "https://media.api-sports.io/football/teams/316.png",
+            "away_team": "Osaka",
+            "away_logo": "https://media.api-sports.io/football/teams/7138.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1589287,
+            "date": "2026-07-19T08:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Yokohama F. Marinos",
+            "home_logo": "https://media.api-sports.io/football/teams/296.png",
+            "away_team": "Roasso Kumamoto",
+            "away_logo": "https://media.api-sports.io/football/teams/314.png",
             "short_tip": "OVER 2.5",
             "confidence": "85%",
             "total_xg": 4.0,
-            "percent_home": "10%",
-            "percent_draw": "45%",
-            "percent_away": "45%",
+            "percent_home": "35%",
+            "percent_draw": "35%",
+            "percent_away": "30%",
             "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
             "odds": {
                 "over": "N/A",
                 "under": "N/A"
             },
-            "status": "Finished",
-            "home_goals": 3,
-            "away_goals": 1,
-            "correct_ou": true,
-            "correct_1x2": true
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
         }
     ]
 }
