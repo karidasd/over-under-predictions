@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 26,
-    "total_1x2": 39,
+    "correct_1x2": 27,
+    "total_1x2": 40,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -373,6 +373,31 @@
             },
             "status": "Finished",
             "home_goals": 2,
+            "away_goals": 1,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1535526,
+            "date": "2026-07-18T07:00:00+00:00",
+            "league": "Western Australia State League 1",
+            "home_team": "Inglewood United",
+            "home_logo": "https://media.api-sports.io/football/teams/3818.png",
+            "away_team": "UWA Nedlands",
+            "away_logo": "https://media.api-sports.io/football/teams/23533.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 3,
             "away_goals": 1,
             "correct_ou": true,
             "correct_1x2": true
