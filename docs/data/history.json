@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 28,
-    "total_1x2": 42,
+    "correct_1x2": 29,
+    "total_1x2": 44,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -451,6 +451,56 @@
             "away_goals": 1,
             "correct_ou": true,
             "correct_1x2": true
+        },
+        {
+            "fixture_id": 1598485,
+            "date": "2026-07-20T07:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Sagan Tosu",
+            "home_logo": "https://media.api-sports.io/football/teams/295.png",
+            "away_team": "Verspah Oita",
+            "away_logo": "https://media.api-sports.io/football/teams/7151.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.5,
+            "percent_home": "50%",
+            "percent_draw": "50%",
+            "percent_away": "0%",
+            "advice": "AI expects 4.5 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 7,
+            "away_goals": 1,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1593669,
+            "date": "2026-07-20T14:30:00+00:00",
+            "league": "Premier League",
+            "home_team": "Jwaaya FC",
+            "home_logo": "https://media.api-sports.io/football/teams/26399.png",
+            "away_team": "Al Ahed",
+            "away_logo": "https://media.api-sports.io/football/teams/4567.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 0,
+            "correct_ou": false,
+            "correct_1x2": false
         }
     ]
 }
