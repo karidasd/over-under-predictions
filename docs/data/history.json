@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 29,
-    "total_1x2": 44,
+    "correct_1x2": 31,
+    "total_1x2": 48,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -499,6 +499,106 @@
             "status": "Finished",
             "home_goals": 2,
             "away_goals": 0,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1591889,
+            "date": "2026-07-21T04:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "FC Tokyo",
+            "home_logo": "https://media.api-sports.io/football/teams/292.png",
+            "away_team": "Nagoya Grampus",
+            "away_logo": "https://media.api-sports.io/football/teams/288.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.5,
+            "percent_home": "50%",
+            "percent_draw": "50%",
+            "percent_away": "0%",
+            "advice": "AI expects 4.5 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 1,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1598843,
+            "date": "2026-07-21T09:30:00+00:00",
+            "league": "Calcutta Premier Division",
+            "home_team": "Calcutta Customs",
+            "home_logo": "https://media.api-sports.io/football/teams/21599.png",
+            "away_team": "Patha Chakra",
+            "away_logo": "https://media.api-sports.io/football/teams/21607.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 4,
+            "away_goals": 2,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1560859,
+            "date": "2026-07-21T10:00:00+00:00",
+            "league": "Australia Cup",
+            "home_team": "Cumberland United",
+            "home_logo": "https://media.api-sports.io/football/teams/10009.png",
+            "away_team": "Heidelberg United",
+            "away_logo": "https://media.api-sports.io/football/teams/3803.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "1.36",
+                "under": "3.00"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 3,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1507004,
+            "date": "2026-07-21T10:30:00+00:00",
+            "league": "K League 1",
+            "home_team": "Jeju United FC",
+            "home_logo": "https://media.api-sports.io/football/teams/2761.png",
+            "away_team": "Gangwon FC",
+            "away_logo": "https://media.api-sports.io/football/teams/2746.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "0%",
+            "percent_draw": "50%",
+            "percent_away": "50%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 1,
             "correct_ou": false,
             "correct_1x2": false
         }
