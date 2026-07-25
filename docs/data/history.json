@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 32,
-    "total_1x2": 55,
+    "correct_1x2": 35,
+    "total_1x2": 58,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -776,6 +776,81 @@
             "away_goals": 2,
             "correct_ou": false,
             "correct_1x2": false
+        },
+        {
+            "fixture_id": 1517604,
+            "date": "2026-07-24T09:30:00+00:00",
+            "league": "New South Wales NPL",
+            "home_team": "Manly United",
+            "home_logo": "https://media.api-sports.io/football/teams/3767.png",
+            "away_team": "Sydney Olympic",
+            "away_logo": "https://media.api-sports.io/football/teams/3774.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.67",
+                "under": "2.10"
+            },
+            "status": "Finished",
+            "home_goals": 4,
+            "away_goals": 0,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1583416,
+            "date": "2026-07-24T09:45:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Penafiel",
+            "home_logo": "https://media.api-sports.io/football/teams/235.png",
+            "away_team": "Leganes",
+            "away_logo": "https://media.api-sports.io/football/teams/537.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "80%",
+            "total_xg": 1.5,
+            "percent_home": "0%",
+            "percent_draw": "50%",
+            "percent_away": "50%",
+            "advice": "AI expects only 1.5 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 2,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1533749,
+            "date": "2026-07-24T10:00:00+00:00",
+            "league": "WK-League",
+            "home_team": "Gyeongju W",
+            "home_logo": "https://media.api-sports.io/football/teams/14375.png",
+            "away_team": "Changnyeong W",
+            "away_logo": "https://media.api-sports.io/football/teams/14373.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 6,
+            "away_goals": 1,
+            "correct_ou": true,
+            "correct_1x2": true
         }
     ]
 }
