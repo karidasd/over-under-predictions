@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 35,
-    "total_1x2": 58,
+    "correct_1x2": 36,
+    "total_1x2": 61,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -848,6 +848,81 @@
             },
             "status": "Finished",
             "home_goals": 6,
+            "away_goals": 1,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1566283,
+            "date": "2026-07-26T08:45:00+00:00",
+            "league": "Oberliga - Hamburg",
+            "home_team": "HEBC",
+            "home_logo": "https://media.api-sports.io/football/teams/16078.png",
+            "away_team": "Niendorfer TSV",
+            "away_logo": "https://media.api-sports.io/football/teams/12821.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "0%",
+            "percent_draw": "50%",
+            "percent_away": "50%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 3,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1566284,
+            "date": "2026-07-26T09:00:00+00:00",
+            "league": "Oberliga - Hamburg",
+            "home_team": "Sasel",
+            "home_logo": "https://media.api-sports.io/football/teams/16083.png",
+            "away_team": "Buchholz",
+            "away_logo": "https://media.api-sports.io/football/teams/12746.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "0%",
+            "percent_draw": "50%",
+            "percent_away": "50%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 4,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1582093,
+            "date": "2026-07-26T09:30:00+00:00",
+            "league": "Kvindeliga",
+            "home_team": "Nordsj\u00e6lland W",
+            "home_logo": "https://media.api-sports.io/football/teams/13983.png",
+            "away_team": "Odense Q W",
+            "away_logo": "https://media.api-sports.io/football/teams/13984.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "50%",
+            "percent_draw": "50%",
+            "percent_away": "0%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 0,
             "away_goals": 1,
             "correct_ou": true,
             "correct_1x2": true
