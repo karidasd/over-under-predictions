@@ -1,6 +1,6 @@
 {
     "correct_1x2": 36,
-    "total_1x2": 61,
+    "total_1x2": 63,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -926,6 +926,56 @@
             "away_goals": 1,
             "correct_ou": true,
             "correct_1x2": true
+        },
+        {
+            "fixture_id": 1567387,
+            "date": "2026-07-27T12:30:00+00:00",
+            "league": "David Kipiani Cup",
+            "home_team": "Samtskhe Akhaltsikhe",
+            "home_logo": "https://media.api-sports.io/football/teams/16515.png",
+            "away_team": "Gagra",
+            "away_logo": "https://media.api-sports.io/football/teams/3505.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 2,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1548091,
+            "date": "2026-07-27T13:30:00+00:00",
+            "league": "ASEAN Championship",
+            "home_team": "Indonesia",
+            "home_logo": "https://media.api-sports.io/football/teams/1571.png",
+            "away_team": "Cambodia",
+            "away_logo": "https://media.api-sports.io/football/teams/1543.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "80%",
+            "total_xg": 1.5,
+            "percent_home": "50%",
+            "percent_draw": "50%",
+            "percent_away": "0%",
+            "advice": "AI expects only 1.5 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 5,
+            "away_goals": 1,
+            "correct_ou": false,
+            "correct_1x2": false
         }
     ]
 }
