@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 36,
-    "total_1x2": 67,
+    "correct_1x2": 37,
+    "total_1x2": 70,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -1074,6 +1074,81 @@
             "status": "Finished",
             "home_goals": 0,
             "away_goals": 1,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1584992,
+            "date": "2026-07-29T08:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Lusit\u00e2nia Lourosa",
+            "home_logo": "https://media.api-sports.io/football/teams/6358.png",
+            "away_team": "FC Porto B",
+            "away_logo": "https://media.api-sports.io/football/teams/243.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "67%",
+            "total_xg": 3.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 3.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 3,
+            "away_goals": 3,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1604675,
+            "date": "2026-07-29T09:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Estrela",
+            "home_logo": "https://media.api-sports.io/football/teams/15130.png",
+            "away_team": "Portimonense",
+            "away_logo": "https://media.api-sports.io/football/teams/216.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 1,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1546736,
+            "date": "2026-07-29T10:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Cerezo Osaka",
+            "home_logo": "https://media.api-sports.io/football/teams/291.png",
+            "away_team": "Borussia Dortmund",
+            "away_logo": "https://media.api-sports.io/football/teams/165.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.25",
+                "under": "3.75"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 0,
             "correct_ou": false,
             "correct_1x2": false
         }
