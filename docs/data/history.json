@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 38,
-    "total_1x2": 73,
+    "correct_1x2": 40,
+    "total_1x2": 75,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -1226,6 +1226,56 @@
             "away_goals": 2,
             "correct_ou": false,
             "correct_1x2": false
+        },
+        {
+            "fixture_id": 1604708,
+            "date": "2026-07-31T08:30:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Elche",
+            "home_logo": "https://media.api-sports.io/football/teams/797.png",
+            "away_team": "Cordoba",
+            "away_logo": "https://media.api-sports.io/football/teams/713.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "67%",
+            "total_xg": 3.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 3.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.85",
+                "under": "1.90"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 2,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1527114,
+            "date": "2026-07-31T10:00:00+00:00",
+            "league": "South Australia NPL",
+            "home_team": "Campbelltown City",
+            "home_logo": "https://media.api-sports.io/football/teams/3791.png",
+            "away_team": "Adelaide City",
+            "away_logo": "https://media.api-sports.io/football/teams/3785.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "0%",
+            "percent_draw": "50%",
+            "percent_away": "50%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 4,
+            "correct_ou": true,
+            "correct_1x2": true
         }
     ]
 }
