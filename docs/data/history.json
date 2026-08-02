@@ -1,6 +1,6 @@
 {
     "correct_1x2": 40,
-    "total_1x2": 75,
+    "total_1x2": 76,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -1276,6 +1276,31 @@
             "away_goals": 4,
             "correct_ou": true,
             "correct_1x2": true
+        },
+        {
+            "fixture_id": 1598571,
+            "date": "2026-08-01T09:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "FS T\u0159eb\u00ed\u010d",
+            "home_logo": "https://media.api-sports.io/football/teams/24190.png",
+            "away_team": "Hluk",
+            "away_logo": "https://media.api-sports.io/football/teams/26992.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 5,
+            "away_goals": 5,
+            "correct_ou": false,
+            "correct_1x2": false
         }
     ]
 }
