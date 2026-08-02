@@ -1,14 +1,14 @@
 {
-    "date": "2026-08-01",
+    "date": "2026-08-02",
     "matches": [
         {
-            "fixture_id": 1598571,
-            "date": "2026-08-01T09:00:00+00:00",
+            "fixture_id": 1598582,
+            "date": "2026-08-02T08:30:00+00:00",
             "league": "Friendlies Clubs",
-            "home_team": "FS T\u0159eb\u00ed\u010d",
-            "home_logo": "https://media.api-sports.io/football/teams/24190.png",
-            "away_team": "Hluk",
-            "away_logo": "https://media.api-sports.io/football/teams/26992.png",
+            "home_team": "Gerasdorf Stammersdorf",
+            "home_logo": "https://media.api-sports.io/football/teams/8368.png",
+            "away_team": "Fortuna 05",
+            "away_logo": "https://media.api-sports.io/football/teams/20829.png",
             "short_tip": "UNDER 2.5",
             "confidence": "85%",
             "total_xg": 0.0,
@@ -20,11 +20,86 @@
                 "over": "N/A",
                 "under": "N/A"
             },
-            "status": "Finished",
-            "home_goals": 5,
-            "away_goals": 5,
-            "correct_ou": false,
-            "correct_1x2": false
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1582191,
+            "date": "2026-08-02T09:00:00+00:00",
+            "league": "DFB Junioren Pokal",
+            "home_team": "Berliner U19",
+            "home_logo": "https://media.api-sports.io/football/teams/27940.png",
+            "away_team": "Greuther F\u00fcrth U19",
+            "away_logo": "https://media.api-sports.io/football/teams/10256.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1582192,
+            "date": "2026-08-02T09:00:00+00:00",
+            "league": "DFB Junioren Pokal",
+            "home_team": "Bochum U19",
+            "home_logo": "https://media.api-sports.io/football/teams/10248.png",
+            "away_team": "K\u00f6ln U19",
+            "away_logo": "https://media.api-sports.io/football/teams/10265.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "0%",
+            "percent_draw": "50%",
+            "percent_away": "50%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1582194,
+            "date": "2026-08-02T09:00:00+00:00",
+            "league": "DFB Junioren Pokal",
+            "home_team": "DJK Bamberg U19",
+            "home_logo": "https://media.api-sports.io/football/teams/27941.png",
+            "away_team": "MSV Duisburg U19",
+            "away_logo": "https://media.api-sports.io/football/teams/10266.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
         }
     ]
 }
