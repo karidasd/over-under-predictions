@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 40,
-    "total_1x2": 79,
+    "correct_1x2": 42,
+    "total_1x2": 83,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -1374,6 +1374,106 @@
             "status": "Finished",
             "home_goals": 0,
             "away_goals": 3,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1565433,
+            "date": "2026-08-03T12:30:00+00:00",
+            "league": "Premier League",
+            "home_team": "Bukovyna",
+            "home_logo": "https://media.api-sports.io/football/teams/6486.png",
+            "away_team": "LNZ Cherkasy",
+            "away_logo": "https://media.api-sports.io/football/teams/17161.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "50%",
+            "percent_draw": "50%",
+            "percent_away": "0%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "2.20",
+                "under": "1.62"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 0,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1589977,
+            "date": "2026-08-03T12:30:00+00:00",
+            "league": "First League",
+            "home_team": "Shirak II",
+            "home_logo": "https://media.api-sports.io/football/teams/3697.png",
+            "away_team": "Sardarapat 2",
+            "away_logo": "https://media.api-sports.io/football/teams/27992.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 1,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1549997,
+            "date": "2026-08-03T13:00:00+00:00",
+            "league": "Torneo Promocional Amateur",
+            "home_team": "Barrancas UMET",
+            "home_logo": "https://media.api-sports.io/football/teams/23095.png",
+            "away_team": "Las Mandarinas",
+            "away_logo": "https://media.api-sports.io/football/teams/27788.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "67%",
+            "total_xg": 3.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 3.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 1,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1589971,
+            "date": "2026-08-03T13:00:00+00:00",
+            "league": "First League",
+            "home_team": "BKMA II",
+            "home_logo": "https://media.api-sports.io/football/teams/17171.png",
+            "away_team": "Lernayin Artsakh",
+            "away_logo": "https://media.api-sports.io/football/teams/6281.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "50%",
+            "percent_draw": "50%",
+            "percent_away": "0%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 4,
+            "away_goals": 0,
             "correct_ou": false,
             "correct_1x2": false
         }
