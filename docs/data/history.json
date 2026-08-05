@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 42,
-    "total_1x2": 83,
+    "correct_1x2": 43,
+    "total_1x2": 87,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -1474,6 +1474,106 @@
             "status": "Finished",
             "home_goals": 4,
             "away_goals": 0,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1610286,
+            "date": "2026-08-04T10:00:00+00:00",
+            "league": "Premier League",
+            "home_team": "RTC",
+            "home_logo": "https://media.api-sports.io/football/teams/19005.png",
+            "away_team": "Thimphu",
+            "away_logo": "https://media.api-sports.io/football/teams/5591.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 2,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1542344,
+            "date": "2026-08-04T11:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Jeju United FC",
+            "home_logo": "https://media.api-sports.io/football/teams/2761.png",
+            "away_team": "Bayern M\u00fcnchen",
+            "away_logo": "https://media.api-sports.io/football/teams/157.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "1.13",
+                "under": "5.75"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 2,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1610530,
+            "date": "2026-08-04T12:30:00+00:00",
+            "league": "Piala Presiden",
+            "home_team": "Persebaya Surabaya",
+            "home_logo": "https://media.api-sports.io/football/teams/2446.png",
+            "away_team": "Arema FC",
+            "away_logo": "https://media.api-sports.io/football/teams/2438.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.75",
+                "under": "1.85"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 0,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1589970,
+            "date": "2026-08-04T13:00:00+00:00",
+            "league": "First League",
+            "home_team": "Ararat II",
+            "home_logo": "https://media.api-sports.io/football/teams/3688.png",
+            "away_team": "Andranik",
+            "away_logo": "https://media.api-sports.io/football/teams/21877.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "0%",
+            "percent_draw": "50%",
+            "percent_away": "50%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 4,
             "correct_ou": false,
             "correct_1x2": false
         }
