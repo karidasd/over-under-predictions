@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 47,
-    "total_1x2": 94,
+    "correct_1x2": 48,
+    "total_1x2": 96,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -1751,6 +1751,56 @@
             "away_goals": 5,
             "correct_ou": true,
             "correct_1x2": true
+        },
+        {
+            "fixture_id": 1604768,
+            "date": "2026-08-07T08:30:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Cordoba",
+            "home_logo": "https://media.api-sports.io/football/teams/713.png",
+            "away_team": "Almeria",
+            "away_logo": "https://media.api-sports.io/football/teams/723.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "67%",
+            "total_xg": 3.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 3.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.75",
+                "under": "2.05"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 4,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1541359,
+            "date": "2026-08-07T09:30:00+00:00",
+            "league": "Victoria Premier League 2",
+            "home_team": "Bayside Argonauts",
+            "home_logo": "https://media.api-sports.io/football/teams/27694.png",
+            "away_team": "Box Hill",
+            "away_logo": "https://media.api-sports.io/football/teams/27695.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 1,
+            "correct_ou": false,
+            "correct_1x2": false
         }
     ]
 }
