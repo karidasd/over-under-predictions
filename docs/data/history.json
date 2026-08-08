@@ -1,6 +1,6 @@
 {
     "correct_1x2": 48,
-    "total_1x2": 96,
+    "total_1x2": 97,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -1799,6 +1799,31 @@
             "status": "Finished",
             "home_goals": 0,
             "away_goals": 1,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1532608,
+            "date": "2026-08-08T06:30:00+00:00",
+            "league": "NNSW League 1",
+            "home_team": "Dudley Redhead United",
+            "home_logo": "https://media.api-sports.io/football/teams/25461.png",
+            "away_team": "New Lambton",
+            "away_logo": "https://media.api-sports.io/football/teams/20789.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 0,
             "correct_ou": false,
             "correct_1x2": false
         }
