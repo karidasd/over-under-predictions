@@ -1,24 +1,24 @@
 {
-    "date": "2026-08-08",
+    "date": "2026-08-09",
     "matches": [
         {
-            "fixture_id": 1537509,
-            "date": "2026-08-08T05:00:00+00:00",
-            "league": "Capital Territory NPL",
-            "home_team": "Brindabella",
-            "home_logo": "https://media.api-sports.io/football/teams/23516.png",
-            "away_team": "Tuggeranong United",
-            "away_logo": "https://media.api-sports.io/football/teams/1447.png",
-            "short_tip": "OVER 2.5",
+            "fixture_id": 1562353,
+            "date": "2026-08-09T08:15:00+00:00",
+            "league": "4. liga - Divizie B",
+            "home_team": "Meteor Praha",
+            "home_logo": "https://media.api-sports.io/football/teams/7318.png",
+            "away_team": "Slavoj Vy\u0161ehrad",
+            "away_logo": "https://media.api-sports.io/football/teams/4258.png",
+            "short_tip": "UNDER 2.5",
             "confidence": "85%",
-            "total_xg": 4.0,
-            "percent_home": "0%",
-            "percent_draw": "50%",
-            "percent_away": "50%",
-            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
             "odds": {
-                "over": "1.30",
-                "under": "3.40"
+                "over": "N/A",
+                "under": "N/A"
             },
             "status": "Pending",
             "home_goals": null,
@@ -27,13 +27,63 @@
             "correct_1x2": null
         },
         {
-            "fixture_id": 1532608,
-            "date": "2026-08-08T06:30:00+00:00",
-            "league": "NNSW League 1",
-            "home_team": "Dudley Redhead United",
-            "home_logo": "https://media.api-sports.io/football/teams/25461.png",
-            "away_team": "New Lambton",
-            "away_logo": "https://media.api-sports.io/football/teams/20789.png",
+            "fixture_id": 1562709,
+            "date": "2026-08-09T08:15:00+00:00",
+            "league": "3. liga - CFL B",
+            "home_team": "Hradec Kr\u00e1lov\u00e9 II",
+            "home_logo": "https://media.api-sports.io/football/teams/14495.png",
+            "away_team": "Pardubice II",
+            "away_logo": "https://media.api-sports.io/football/teams/14747.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1562710,
+            "date": "2026-08-09T08:15:00+00:00",
+            "league": "3. liga - CFL B",
+            "home_team": "Jablonec II",
+            "home_logo": "https://media.api-sports.io/football/teams/12797.png",
+            "away_team": "Horn\u00ed \u0158edice",
+            "away_logo": "https://media.api-sports.io/football/teams/24191.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1577880,
+            "date": "2026-08-09T08:15:00+00:00",
+            "league": "3. liga - MSFL",
+            "home_team": "Zbrojovka Brno II",
+            "home_logo": "https://media.api-sports.io/football/teams/8633.png",
+            "away_team": "Fr\u00fddek-M\u00edstek",
+            "away_logo": "https://media.api-sports.io/football/teams/7288.png",
             "short_tip": "OVER 2.5",
             "confidence": "85%",
             "total_xg": 4.0,
@@ -45,11 +95,11 @@
                 "over": "N/A",
                 "under": "N/A"
             },
-            "status": "Finished",
-            "home_goals": 1,
-            "away_goals": 0,
-            "correct_ou": false,
-            "correct_1x2": false
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
         }
     ]
 }
