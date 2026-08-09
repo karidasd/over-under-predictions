@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 48,
-    "total_1x2": 97,
+    "correct_1x2": 51,
+    "total_1x2": 101,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -1826,6 +1826,106 @@
             "away_goals": 0,
             "correct_ou": false,
             "correct_1x2": false
+        },
+        {
+            "fixture_id": 1562353,
+            "date": "2026-08-09T08:15:00+00:00",
+            "league": "4. liga - Divizie B",
+            "home_team": "Meteor Praha",
+            "home_logo": "https://media.api-sports.io/football/teams/7318.png",
+            "away_team": "Slavoj Vy\u0161ehrad",
+            "away_logo": "https://media.api-sports.io/football/teams/4258.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 0,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1562709,
+            "date": "2026-08-09T08:15:00+00:00",
+            "league": "3. liga - CFL B",
+            "home_team": "Hradec Kr\u00e1lov\u00e9 II",
+            "home_logo": "https://media.api-sports.io/football/teams/14495.png",
+            "away_team": "Pardubice II",
+            "away_logo": "https://media.api-sports.io/football/teams/14747.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 1,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1562710,
+            "date": "2026-08-09T08:15:00+00:00",
+            "league": "3. liga - CFL B",
+            "home_team": "Jablonec II",
+            "home_logo": "https://media.api-sports.io/football/teams/12797.png",
+            "away_team": "Horn\u00ed \u0158edice",
+            "away_logo": "https://media.api-sports.io/football/teams/24191.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 0,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1577880,
+            "date": "2026-08-09T08:15:00+00:00",
+            "league": "3. liga - MSFL",
+            "home_team": "Zbrojovka Brno II",
+            "home_logo": "https://media.api-sports.io/football/teams/8633.png",
+            "away_team": "Fr\u00fddek-M\u00edstek",
+            "away_logo": "https://media.api-sports.io/football/teams/7288.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 2,
+            "correct_ou": true,
+            "correct_1x2": true
         }
     ]
 }
