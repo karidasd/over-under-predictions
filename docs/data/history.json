@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 51,
-    "total_1x2": 101,
+    "correct_1x2": 54,
+    "total_1x2": 104,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -1924,6 +1924,81 @@
             "status": "Finished",
             "home_goals": 2,
             "away_goals": 2,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1530985,
+            "date": "2026-08-10T12:30:00+00:00",
+            "league": "Pro League A",
+            "home_team": "Lochin",
+            "home_logo": "https://media.api-sports.io/football/teams/16582.png",
+            "away_team": "Qiziriq",
+            "away_logo": "https://media.api-sports.io/football/teams/23394.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "50%",
+            "percent_draw": "50%",
+            "percent_away": "0%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 1,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1565447,
+            "date": "2026-08-10T12:30:00+00:00",
+            "league": "Premier League",
+            "home_team": "Polessya",
+            "home_logo": "https://media.api-sports.io/football/teams/6496.png",
+            "away_team": "FC Kharkiv",
+            "away_logo": "https://media.api-sports.io/football/teams/3628.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 3,
+            "away_goals": 1,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1602969,
+            "date": "2026-08-10T13:00:00+00:00",
+            "league": "First League",
+            "home_team": "Andranik",
+            "home_logo": "https://media.api-sports.io/football/teams/21877.png",
+            "away_team": "Shirak II",
+            "away_logo": "https://media.api-sports.io/football/teams/3697.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.5,
+            "percent_home": "50%",
+            "percent_draw": "50%",
+            "percent_away": "0%",
+            "advice": "AI expects 4.5 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 4,
+            "away_goals": 0,
             "correct_ou": true,
             "correct_1x2": true
         }
