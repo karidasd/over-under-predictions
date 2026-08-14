@@ -1,80 +1,30 @@
 {
-    "date": "2026-08-13",
+    "date": "2026-08-14",
     "matches": [
         {
-            "fixture_id": 1623062,
-            "date": "2026-08-13T09:30:00+00:00",
-            "league": "Calcutta Premier Division",
-            "home_team": "George Telegraph",
-            "home_logo": "https://media.api-sports.io/football/teams/21604.png",
-            "away_team": "United Kolkata",
-            "away_logo": "https://media.api-sports.io/football/teams/26118.png",
+            "fixture_id": 1517625,
+            "date": "2026-08-14T09:30:00+00:00",
+            "league": "New South Wales NPL",
+            "home_team": "Sydney FC U23",
+            "home_logo": "https://media.api-sports.io/football/teams/3773.png",
+            "away_team": "St George City FA",
+            "away_logo": "https://media.api-sports.io/football/teams/16778.png",
             "short_tip": "OVER 2.5",
             "confidence": "85%",
             "total_xg": 4.0,
-            "percent_home": "10%",
-            "percent_draw": "45%",
-            "percent_away": "45%",
-            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
-            "odds": {
-                "over": "N/A",
-                "under": "N/A"
-            },
-            "status": "Finished",
-            "home_goals": 1,
-            "away_goals": 7,
-            "correct_ou": true,
-            "correct_1x2": true
-        },
-        {
-            "fixture_id": 1623064,
-            "date": "2026-08-13T09:30:00+00:00",
-            "league": "Calcutta Premier Division",
-            "home_team": "Bidhannagar",
-            "home_logo": "https://media.api-sports.io/football/teams/28010.png",
-            "away_team": "Mohun Bagan",
-            "away_logo": "https://media.api-sports.io/football/teams/3467.png",
-            "short_tip": "OVER 2.5",
-            "confidence": "85%",
-            "total_xg": 4.0,
-            "percent_home": "0%",
-            "percent_draw": "50%",
-            "percent_away": "50%",
-            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
-            "odds": {
-                "over": "N/A",
-                "under": "N/A"
-            },
-            "status": "Finished",
-            "home_goals": 0,
-            "away_goals": 3,
-            "correct_ou": true,
-            "correct_1x2": true
-        },
-        {
-            "fixture_id": 1605046,
-            "date": "2026-08-13T12:30:00+00:00",
-            "league": "First League",
-            "home_team": "Lernayin Artsakh",
-            "home_logo": "https://media.api-sports.io/football/teams/6281.png",
-            "away_team": "Ararat-Armenia II",
-            "away_logo": "https://media.api-sports.io/football/teams/3689.png",
-            "short_tip": "UNDER 2.5",
-            "confidence": "85%",
-            "total_xg": 0.0,
             "percent_home": "45%",
             "percent_draw": "45%",
             "percent_away": "10%",
-            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
             "odds": {
-                "over": "N/A",
-                "under": "N/A"
+                "over": "1.77",
+                "under": "1.95"
             },
-            "status": "Finished",
-            "home_goals": 1,
-            "away_goals": 0,
-            "correct_ou": true,
-            "correct_1x2": true
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
         }
     ]
 }
