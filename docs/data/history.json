@@ -1,6 +1,6 @@
 {
     "correct_1x2": 60,
-    "total_1x2": 113,
+    "total_1x2": 114,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -2226,6 +2226,31 @@
             "away_goals": 0,
             "correct_ou": true,
             "correct_1x2": true
+        },
+        {
+            "fixture_id": 1517625,
+            "date": "2026-08-14T09:30:00+00:00",
+            "league": "New South Wales NPL",
+            "home_team": "Sydney FC U23",
+            "home_logo": "https://media.api-sports.io/football/teams/3773.png",
+            "away_team": "St George City FA",
+            "away_logo": "https://media.api-sports.io/football/teams/16778.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.77",
+                "under": "1.95"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 2,
+            "correct_ou": false,
+            "correct_1x2": false
         }
     ]
 }
