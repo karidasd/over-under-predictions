@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 60,
-    "total_1x2": 114,
+    "correct_1x2": 61,
+    "total_1x2": 116,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -2251,6 +2251,56 @@
             "away_goals": 2,
             "correct_ou": false,
             "correct_1x2": false
+        },
+        {
+            "fixture_id": 1583839,
+            "date": "2026-08-16T08:00:00+00:00",
+            "league": "Second League A - Division A Gold",
+            "home_team": "Dinamo Vladivostok",
+            "home_logo": "https://media.api-sports.io/football/teams/16856.png",
+            "away_team": "FK Sokol Saratov",
+            "away_logo": "https://media.api-sports.io/football/teams/1995.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.94",
+                "under": "1.75"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 0,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1559752,
+            "date": "2026-08-16T08:15:00+00:00",
+            "league": "FNL",
+            "home_team": "Viktoria \u017di\u017ekov",
+            "home_logo": "https://media.api-sports.io/football/teams/3729.png",
+            "away_team": "Ban\u00edk Ostrava II",
+            "away_logo": "https://media.api-sports.io/football/teams/8621.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "67%",
+            "total_xg": 3.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 3.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.67",
+                "under": "2.10"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 4,
+            "correct_ou": true,
+            "correct_1x2": true
         }
     ]
 }
