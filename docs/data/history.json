@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 61,
-    "total_1x2": 116,
+    "correct_1x2": 62,
+    "total_1x2": 118,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -2301,6 +2301,56 @@
             "away_goals": 4,
             "correct_ou": true,
             "correct_1x2": true
+        },
+        {
+            "fixture_id": 1629009,
+            "date": "2026-08-18T08:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Illescas",
+            "home_logo": "https://media.api-sports.io/football/teams/9901.png",
+            "away_team": "SS Reyes II",
+            "away_logo": "https://media.api-sports.io/football/teams/26545.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 1,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1619112,
+            "date": "2026-08-18T12:00:00+00:00",
+            "league": "Professional Development League",
+            "home_team": "Bristol City U21",
+            "home_logo": "https://media.api-sports.io/football/teams/20080.png",
+            "away_team": "Wigan Athletic U21",
+            "away_logo": "https://media.api-sports.io/football/teams/20097.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "50%",
+            "percent_draw": "50%",
+            "percent_away": "0%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "1.30",
+                "under": "3.20"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 2,
+            "correct_ou": false,
+            "correct_1x2": false
         }
     ]
 }
