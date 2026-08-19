@@ -1,6 +1,6 @@
 {
-    "correct_1x2": 62,
-    "total_1x2": 118,
+    "correct_1x2": 63,
+    "total_1x2": 120,
     "history_log": [
         {
             "fixture_id": 1584779,
@@ -2351,6 +2351,56 @@
             "away_goals": 2,
             "correct_ou": false,
             "correct_1x2": false
+        },
+        {
+            "fixture_id": 1623316,
+            "date": "2026-08-19T08:00:00+00:00",
+            "league": "Emperor Cup",
+            "home_team": "Arterivo Wakayama",
+            "home_logo": "https://media.api-sports.io/football/teams/7116.png",
+            "away_team": "Azul Claro Numazu",
+            "away_logo": "https://media.api-sports.io/football/teams/4314.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 6,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1629012,
+            "date": "2026-08-19T08:00:00+00:00",
+            "league": "Friendlies Clubs",
+            "home_team": "Elche II",
+            "home_logo": "https://media.api-sports.io/football/teams/9691.png",
+            "away_team": "FC Cartagena",
+            "away_logo": "https://media.api-sports.io/football/teams/5262.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "85%",
+            "total_xg": 0.0,
+            "percent_home": "33%",
+            "percent_draw": "33%",
+            "percent_away": "33%",
+            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "1.80",
+                "under": "1.80"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 0,
+            "correct_ou": true,
+            "correct_1x2": true
         }
     ]
 }
