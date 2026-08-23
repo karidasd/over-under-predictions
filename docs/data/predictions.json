@@ -1,4 +1,105 @@
 {
-    "date": "2026-08-22",
-    "matches": []
+    "date": "2026-08-23",
+    "matches": [
+        {
+            "fixture_id": 1520537,
+            "date": "2026-08-23T08:00:00+00:00",
+            "league": "K3 League",
+            "home_team": "Siheung Citizen",
+            "home_logo": "https://media.api-sports.io/football/teams/7105.png",
+            "away_team": "Daejeon Korail",
+            "away_logo": "https://media.api-sports.io/football/teams/7068.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "35%",
+            "percent_draw": "35%",
+            "percent_away": "30%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.95",
+                "under": "1.67"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1578058,
+            "date": "2026-08-23T08:00:00+00:00",
+            "league": "AFC Women's Champions League",
+            "home_team": "Rovers FC W",
+            "home_logo": "https://media.api-sports.io/football/teams/27923.png",
+            "away_team": "Rajshahi W",
+            "away_logo": "https://media.api-sports.io/football/teams/27922.png",
+            "short_tip": "UNDER 2.5",
+            "confidence": "80%",
+            "total_xg": 1.5,
+            "percent_home": "0%",
+            "percent_draw": "50%",
+            "percent_away": "50%",
+            "advice": "AI expects only 1.5 total goals \u2014 leaning UNDER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1602449,
+            "date": "2026-08-23T08:00:00+00:00",
+            "league": "Liga II",
+            "home_team": "Viitorul \u015eelimb\u0103r",
+            "home_logo": "https://media.api-sports.io/football/teams/6927.png",
+            "away_team": "CS Afumati",
+            "away_logo": "https://media.api-sports.io/football/teams/2608.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "2.05",
+                "under": "1.75"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        },
+        {
+            "fixture_id": 1602450,
+            "date": "2026-08-23T08:00:00+00:00",
+            "league": "Liga II",
+            "home_team": "CSA Steaua Bucure\u015fti",
+            "home_logo": "https://media.api-sports.io/football/teams/7466.png",
+            "away_team": "Dumbr\u0103vi\u0163a",
+            "away_logo": "https://media.api-sports.io/football/teams/7469.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "67%",
+            "total_xg": 3.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 3.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Pending",
+            "home_goals": null,
+            "away_goals": null,
+            "correct_ou": null,
+            "correct_1x2": null
+        }
+    ]
 }
