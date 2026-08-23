@@ -1,82 +1,7 @@
 {
-    "correct_1x2": 64,
-    "total_1x2": 126,
+    "correct_1x2": 65,
+    "total_1x2": 129,
     "history_log": [
-        {
-            "fixture_id": 1567613,
-            "date": "2026-07-12T10:00:00+00:00",
-            "league": "Friendlies Clubs",
-            "home_team": "Eimsb\u00fctteler TV",
-            "home_logo": "https://media.api-sports.io/football/teams/13947.png",
-            "away_team": "L\u00fcbeck II",
-            "away_logo": "https://media.api-sports.io/football/teams/16072.png",
-            "short_tip": "OVER 2.5",
-            "confidence": "85%",
-            "total_xg": 4.5,
-            "percent_home": "50%",
-            "percent_draw": "50%",
-            "percent_away": "0%",
-            "advice": "AI expects 4.5 total goals \u2014 leaning OVER 2.5",
-            "odds": {
-                "over": "N/A",
-                "under": "N/A"
-            },
-            "status": "Finished",
-            "home_goals": 6,
-            "away_goals": 1,
-            "correct_ou": true,
-            "correct_1x2": true
-        },
-        {
-            "fixture_id": 1583651,
-            "date": "2026-07-13T08:00:00+00:00",
-            "league": "Friendlies",
-            "home_team": "Vietnam",
-            "home_logo": "https://media.api-sports.io/football/teams/1542.png",
-            "away_team": "Gangwon FC",
-            "away_logo": "https://media.api-sports.io/football/teams/2746.png",
-            "short_tip": "UNDER 2.5",
-            "confidence": "85%",
-            "total_xg": 0.0,
-            "percent_home": "33%",
-            "percent_draw": "33%",
-            "percent_away": "33%",
-            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
-            "odds": {
-                "over": "N/A",
-                "under": "N/A"
-            },
-            "status": "Finished",
-            "home_goals": 2,
-            "away_goals": 1,
-            "correct_ou": false,
-            "correct_1x2": false
-        },
-        {
-            "fixture_id": 1576817,
-            "date": "2026-07-13T13:00:00+00:00",
-            "league": "Reserve League",
-            "home_team": "Estudiantes Rio Cuarto 2",
-            "home_logo": "https://media.api-sports.io/football/teams/27271.png",
-            "away_team": "Defensa y Justicia Res.",
-            "away_logo": "https://media.api-sports.io/football/teams/18684.png",
-            "short_tip": "OVER 2.5",
-            "confidence": "85%",
-            "total_xg": 4.0,
-            "percent_home": "10%",
-            "percent_draw": "45%",
-            "percent_away": "45%",
-            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
-            "odds": {
-                "over": "N/A",
-                "under": "N/A"
-            },
-            "status": "Finished",
-            "home_goals": 1,
-            "away_goals": 0,
-            "correct_ou": false,
-            "correct_1x2": false
-        },
         {
             "fixture_id": 1560857,
             "date": "2026-07-14T09:30:00+00:00",
@@ -2501,6 +2426,81 @@
             "away_goals": 5,
             "correct_ou": false,
             "correct_1x2": false
+        },
+        {
+            "fixture_id": 1520537,
+            "date": "2026-08-23T08:00:00+00:00",
+            "league": "K3 League",
+            "home_team": "Siheung Citizen",
+            "home_logo": "https://media.api-sports.io/football/teams/7105.png",
+            "away_team": "Daejeon Korail",
+            "away_logo": "https://media.api-sports.io/football/teams/7068.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "35%",
+            "percent_draw": "35%",
+            "percent_away": "30%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.95",
+                "under": "1.67"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 0,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1602449,
+            "date": "2026-08-23T08:00:00+00:00",
+            "league": "Liga II",
+            "home_team": "Viitorul \u015eelimb\u0103r",
+            "home_logo": "https://media.api-sports.io/football/teams/6927.png",
+            "away_team": "CS Afumati",
+            "away_logo": "https://media.api-sports.io/football/teams/2608.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "2.05",
+                "under": "1.75"
+            },
+            "status": "Finished",
+            "home_goals": 1,
+            "away_goals": 1,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1602450,
+            "date": "2026-08-23T08:00:00+00:00",
+            "league": "Liga II",
+            "home_team": "CSA Steaua Bucure\u015fti",
+            "home_logo": "https://media.api-sports.io/football/teams/7466.png",
+            "away_team": "Dumbr\u0103vi\u0163a",
+            "away_logo": "https://media.api-sports.io/football/teams/7469.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "67%",
+            "total_xg": 3.0,
+            "percent_home": "45%",
+            "percent_draw": "45%",
+            "percent_away": "10%",
+            "advice": "AI expects 3.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "N/A",
+                "under": "N/A"
+            },
+            "status": "Finished",
+            "home_goals": 2,
+            "away_goals": 2,
+            "correct_ou": true,
+            "correct_1x2": true
         }
     ]
 }
