@@ -1,57 +1,7 @@
 {
-    "correct_1x2": 68,
-    "total_1x2": 133,
+    "correct_1x2": 69,
+    "total_1x2": 135,
     "history_log": [
-        {
-            "fixture_id": 1589262,
-            "date": "2026-07-15T08:00:00+00:00",
-            "league": "Friendlies Clubs",
-            "home_team": "Yokohama F. Marinos",
-            "home_logo": "https://media.api-sports.io/football/teams/296.png",
-            "away_team": "Tegevajaro Miyazaki",
-            "away_logo": "https://media.api-sports.io/football/teams/10409.png",
-            "short_tip": "UNDER 2.5",
-            "confidence": "85%",
-            "total_xg": 0.0,
-            "percent_home": "33%",
-            "percent_draw": "33%",
-            "percent_away": "33%",
-            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
-            "odds": {
-                "over": "N/A",
-                "under": "N/A"
-            },
-            "status": "Finished",
-            "home_goals": 1,
-            "away_goals": 1,
-            "correct_ou": true,
-            "correct_1x2": true
-        },
-        {
-            "fixture_id": 1560863,
-            "date": "2026-07-15T09:30:00+00:00",
-            "league": "Australia Cup",
-            "home_team": "Marlin Coast",
-            "home_logo": "https://media.api-sports.io/football/teams/27884.png",
-            "away_team": "Brunswick Juventus FC",
-            "away_logo": "https://media.api-sports.io/football/teams/27510.png",
-            "short_tip": "UNDER 2.5",
-            "confidence": "85%",
-            "total_xg": 0.0,
-            "percent_home": "33%",
-            "percent_draw": "33%",
-            "percent_away": "33%",
-            "advice": "AI expects only 0.0 total goals \u2014 leaning UNDER 2.5",
-            "odds": {
-                "over": "N/A",
-                "under": "N/A"
-            },
-            "status": "Finished",
-            "home_goals": 0,
-            "away_goals": 4,
-            "correct_ou": false,
-            "correct_1x2": false
-        },
         {
             "fixture_id": 1589269,
             "date": "2026-07-16T01:30:00+00:00",
@@ -2499,6 +2449,56 @@
             "status": "Finished",
             "home_goals": 4,
             "away_goals": 2,
+            "correct_ou": false,
+            "correct_1x2": false
+        },
+        {
+            "fixture_id": 1631497,
+            "date": "2026-08-25T09:30:00+00:00",
+            "league": "Calcutta Premier Division",
+            "home_team": "United",
+            "home_logo": "https://media.api-sports.io/football/teams/8241.png",
+            "away_team": "Police",
+            "away_logo": "https://media.api-sports.io/football/teams/21614.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "10%",
+            "percent_draw": "45%",
+            "percent_away": "45%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "2.05",
+                "under": "1.60"
+            },
+            "status": "Finished",
+            "home_goals": 3,
+            "away_goals": 0,
+            "correct_ou": true,
+            "correct_1x2": true
+        },
+        {
+            "fixture_id": 1507040,
+            "date": "2026-08-25T10:30:00+00:00",
+            "league": "K League 1",
+            "home_team": "Gimcheon Sangmu FC",
+            "home_logo": "https://media.api-sports.io/football/teams/2768.png",
+            "away_team": "Jeonbuk Motors",
+            "away_logo": "https://media.api-sports.io/football/teams/2762.png",
+            "short_tip": "OVER 2.5",
+            "confidence": "85%",
+            "total_xg": 4.0,
+            "percent_home": "35%",
+            "percent_draw": "35%",
+            "percent_away": "30%",
+            "advice": "AI expects 4.0 total goals \u2014 leaning OVER 2.5",
+            "odds": {
+                "over": "1.90",
+                "under": "1.85"
+            },
+            "status": "Finished",
+            "home_goals": 0,
+            "away_goals": 0,
             "correct_ou": false,
             "correct_1x2": false
         }
